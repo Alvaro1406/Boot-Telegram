@@ -29,7 +29,7 @@ def start(Update , context) :
     bot.send_chat_action(chat_id = chat_id , action = "TYPING" )
     
     
-    Update.message.reply_text("_Hola " + name +    " , yo soy un Bot_" , "markdown" , reply_markup = telegram.InlineKeyboardMarkup ([[ telegram.InlineKeyboardButton(text = "Mi Creador" , url = "https://t.me/RaulCobiellas")] , [ telegram.InlineKeyboardButton (text ="📚Doc. Libreria" , url="https://python-telegram-bot.readthedocs.io/en/stable/index.html ")]]))
+    Update.message.reply_text("_Hola " + name +    " , yo soy un Bot_" , "markdown" , reply_markup = telegram.InlineKeyboardMarkup ([[ telegram.InlineKeyboardButton(text = "Mi Creador" , url = "https://t.me/Ragnar_l14")] , [ telegram.InlineKeyboardButton (text ="📚Doc. Libreria" , url="https://python-telegram-bot.readthedocs.io/en/stable/index.html ")]]))
 
 
 
